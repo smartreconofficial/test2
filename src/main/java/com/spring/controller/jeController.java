@@ -20,7 +20,7 @@ public class jeController {
     private jeService dataService;
 
     
-    @RequestMapping("/saveData222222")
+    @RequestMapping("/saveData333333")
     public ResponseEntity<String> saveData(@RequestBody List<List<Object>> data) {
     	System.out.println("data: "+data);
         try {
